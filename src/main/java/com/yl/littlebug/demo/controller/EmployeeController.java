@@ -1,7 +1,8 @@
-package com.yl.littlebug.controller;
+package com.yl.littlebug.demo.controller;
 
-import com.yl.littlebug.entity.Employee;
-import com.yl.littlebug.service.EmployeeService;
+
+import com.yl.littlebug.demo.entity.Employee;
+import com.yl.littlebug.demo.service.EmployeeService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
@@ -11,7 +12,7 @@ import reactor.core.publisher.Mono;
 
 /**
  * @author by wzc
- * @Description controllerceng
+ * @Description controller层 测试用途
  * @Date 2021/11/30 10:16
  */
 @RestController

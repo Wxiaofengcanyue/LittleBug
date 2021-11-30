@@ -1,6 +1,6 @@
-package com.yl.littlebug.dao;
+package com.yl.littlebug.demo.dao;
 
-import com.yl.littlebug.entity.Employee;
+import com.yl.littlebug.demo.entity.Employee;
 import org.springframework.data.repository.reactive.ReactiveCrudRepository;
 import reactor.core.publisher.Flux;
 

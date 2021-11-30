@@ -1,4 +1,4 @@
-package com.yl.littlebug.entity;
+package com.yl.littlebug.demo.entity;
 
 import lombok.*;
 import org.springframework.data.annotation.Id;

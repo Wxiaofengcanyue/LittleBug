@@ -1,4 +1,4 @@
-package com.yl.littlebug.controller;
+package com.yl.littlebug.demo.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -7,7 +7,7 @@ import reactor.core.publisher.Mono;
 
 /**
  * @author wangzhichao
- * @Description TODO
+ * @Description 测试用途
  * @Date 2021/11/29 23:31
  */
 
