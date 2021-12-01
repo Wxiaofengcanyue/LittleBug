@@ -34,7 +34,7 @@ public class EmployeeServiceImpl implements EmployeeService {
 
     @Override
     public Flux<Employee> findByName(String name) {
-        return employeeDao.findByName(name);
+        return employeeDao.findByNameLike(name);
     }
 
     @Override

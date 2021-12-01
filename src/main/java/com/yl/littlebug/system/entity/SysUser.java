@@ -3,6 +3,8 @@ package com.yl.littlebug.system.entity;
 import lombok.*;
 import org.springframework.data.annotation.*;
 import org.springframework.data.relational.core.mapping.Table;
+
+import java.io.Serializable;
 import java.time.LocalDateTime;
 
 
@@ -14,7 +16,7 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class SysUser {
+public class SysUser implements Serializable {
 
   @Id
   private long userId;

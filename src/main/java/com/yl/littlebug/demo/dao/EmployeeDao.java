@@ -11,6 +11,6 @@ import reactor.core.publisher.Flux;
  */
 public interface EmployeeDao extends ReactiveCrudRepository<Employee,Long> {
 
-    Flux<Employee> findByName(String name);
+    Flux<Employee> findByNameLike(String name);
 
 }
