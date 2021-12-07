@@ -9,35 +9,21 @@ import java.time.LocalDateTime;
 /**
  * @author wangzhichao
  */
-
-
-@Table("sys_user")
+@Table("sys_login_log")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class SysUser {
+public class SysLoginLog {
 
   @Id
   private long id;
 
-  private String name;
+  private String userName;
 
-  private String nickName;
+  private String status;
 
-  private String avatar;
-
-  private String password;
-
-  private String salt;
-
-  private String email;
-
-  private String mobile;
-
-  private long status;
-
-  private long deptId;
+  private String ip;
 
   private String createBy;
 
@@ -46,7 +32,5 @@ public class SysUser {
   private String lastUpdateBy;
 
   private LocalDateTime lastUpdateTime;
-
-  private long delFlag;
 
 }

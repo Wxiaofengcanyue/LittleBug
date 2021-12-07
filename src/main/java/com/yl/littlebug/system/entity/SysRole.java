@@ -9,35 +9,19 @@ import java.time.LocalDateTime;
 /**
  * @author wangzhichao
  */
-
-
-@Table("sys_user")
+@Table("sys_role")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class SysUser {
+public class SysRole {
 
   @Id
   private long id;
 
   private String name;
 
-  private String nickName;
-
-  private String avatar;
-
-  private String password;
-
-  private String salt;
-
-  private String email;
-
-  private String mobile;
-
-  private long status;
-
-  private long deptId;
+  private String remark;
 
   private String createBy;
 

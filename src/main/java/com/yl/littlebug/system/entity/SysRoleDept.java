@@ -9,33 +9,17 @@ import java.time.LocalDateTime;
 /**
  * @author wangzhichao
  */
-
-
-@Table("sys_user")
+@Table("sys_role_dept")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class SysUser {
+public class SysRoleDept {
 
   @Id
   private long id;
 
-  private String name;
-
-  private String nickName;
-
-  private String avatar;
-
-  private String password;
-
-  private String salt;
-
-  private String email;
-
-  private String mobile;
-
-  private long status;
+  private long roleId;
 
   private long deptId;
 
@@ -46,7 +30,5 @@ public class SysUser {
   private String lastUpdateBy;
 
   private LocalDateTime lastUpdateTime;
-
-  private long delFlag;
 
 }

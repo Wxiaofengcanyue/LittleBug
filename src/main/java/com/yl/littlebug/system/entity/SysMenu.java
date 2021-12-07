@@ -9,35 +9,29 @@ import java.time.LocalDateTime;
 /**
  * @author wangzhichao
  */
-
-
-@Table("sys_user")
+@Table("sys_menu")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class SysUser {
+public class SysMenu {
 
   @Id
   private long id;
 
   private String name;
 
-  private String nickName;
+  private long parentId;
 
-  private String avatar;
+  private String url;
 
-  private String password;
+  private String perms;
 
-  private String salt;
+  private long type;
 
-  private String email;
+  private String icon;
 
-  private String mobile;
-
-  private long status;
-
-  private long deptId;
+  private long orderNum;
 
   private String createBy;
 
